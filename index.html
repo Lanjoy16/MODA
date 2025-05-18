@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MODA - Sweet Bites & Desserts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: #fffaf4;
+      color: #3b2f2f;
+    }
+    header {
+      background: #f7c59f;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .about, .contact {
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: #ffeede;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 10px;
+      height: 150px;
+      object-fit: cover;
+    }
+    footer {
+      background: #f7c59f;
+      text-align: center;
+      padding: 20px;
+      color: #fff;
+    }
+    button {
+      background-color: #ff8c42;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #e6762f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MODA</h1>
+    <p>Sweet Bites Made with Love – From Our Kitchen to Yours</p>
+  </header>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>MODA is a passion project of a loving mother and daughter duo. We whip up homemade desserts that bring families together – whether it's graham bars, mousse cakes, cookies, or even frozen pizza, every bite tells a story of love and sweetness.</p>
+  </section>
+
+  <section>
+    <h2 style="text-align: center;">Our Sweet Treats</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150?text=Graham+Bars" alt="Graham Bars">
+        <h3>Graham Bars</h3>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150?text=Bento+Cakes" alt="Bento Cakes">
+        <h3>Bento Cakes</h3>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150?text=Mousse+Cakes" alt="Mousse Cakes">
+        <h3>Mousse Cakes</h3>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150?text=Cookies" alt="Cookies">
+        <h3>Cookies</h3>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150?text=Brownies" alt="Brownies">
+        <h3>Brownies</h3>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150?text=Ice+Cream+Cups" alt="Ice Cream Cups">
+        <h3>Ice Cream Cups</h3>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150?text=Frozen+Pizza" alt="Frozen Pizza">
+        <h3>Frozen Pizza</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact & Orders</h2>
+    <p>Craving something sweet? Message us on Facebook or Instagram, or email us at <strong>modasweets@gmail.com</strong></p>
+    <button>Order Now</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MODA – Mother & Daughter Sweets</p>
+  </footer>
+</body>
+</html>
